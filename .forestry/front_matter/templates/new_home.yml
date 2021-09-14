@@ -1,25 +1,25 @@
 ---
 label: new_home
-fields:
-  - type: number
-    name: mooi
-    label: mooideze
-    default: '12'
-  - type: text
-    name: 2e_text
-    label: Dit is de 2e text
-    default: 2e Lorem ipsum consequat
-  - name: permalink
-    type: text
-    label: Permalink
-    config:
-      required: true
-  - name: layout
-    type: text
-    hidden: true
-    label: layout
-    default: new_home
-    config:
-      required: true
-display_field: permalink
 hide_body: true
+display_field: permalink
+fields:
+- type: number
+  name: mooi
+  label: mooideze
+  default: '12'
+- type: text
+  name: 2e_text
+  label: Dit is de 2e text
+  default: 2e Lorem ipsum consequat
+- name: permalink
+  type: text
+  label: Permalink
+  config:
+    required: true
+- name: layout
+  type: text
+  hidden: true
+  label: layout
+  default: new_home
+  config:
+    required: true
