@@ -1,6 +1,6 @@
 ---
 label: new_home
-hide_body: true
+hide_body: false
 display_field: permalink
 fields:
 - type: number
@@ -23,3 +23,6 @@ fields:
   default: new_home
   config:
     required: true
+pages:
+- content/pages/home.md
+- content/pages/nummer1.md

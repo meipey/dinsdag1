@@ -1,6 +1,7 @@
 ---
-mooi: "<p>het is mooi weer weer</p>"
-layout: page-1
-permalink: "/"
+mooi: 2
+layout: new_home
+permalink: "/blabla"
+2e_text: 2e Lorem ipsum consequat
 
 ---
