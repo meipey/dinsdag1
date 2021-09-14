@@ -1,14 +1,10 @@
 ---
 label: home
 fields:
-  - type: textarea
+  - type: number
     name: mooi
     label: mooideze
-    default: het is mooi weer
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
+    default: '12'
   - name: permalink
     type: text
     label: Permalink
