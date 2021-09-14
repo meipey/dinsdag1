@@ -24,5 +24,6 @@ fields:
   config:
     required: true
 pages:
+- content/pages/NOG.md
 - content/pages/home.md
 - content/pages/nummer1.md
